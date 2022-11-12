@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form method="post">
+        <label for="name">Name*</label>
+        <input type="text" required id="name"><br>
+
+        <label for="email">Email*</label>
+        <input type="text" required id="email"><br>
+
+        <label for="portfolio">Portfolio</label>
+        <input type="url">
+
+        <label for="gender"> Gender*</label><br>
+        <input type="radio" id="male" value="male" name="gender" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" value="Female" name="gender" required>
+        <label for="female">Female</label><br>
+
+        <label for=" laptop"> Laptop Brands </label>
+        <select id="laptop" name="select"> 
+            <option value="Apple" >Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
+        </select><br>
+
+        <label for="age">Age*</label>
+        <input type="number" name="age" id="age" min="1" max="100" required><br>
+        <label for="dob">DOB*</label>
+        <input type="date" id="dob" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pwd" required><br>
+        <button id="btn">Submit</button>
+    </form>
+    
+</body>
+</html>
